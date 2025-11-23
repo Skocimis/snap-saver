@@ -1,0 +1,30 @@
+{
+  "name": "snapsaver",
+  "version": "1.0.0",
+  "description": "Transaction insights powered by VisualSign and ERC-7730 Clear Signing for safer transaction verification.",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Skocimis/snap-saver.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Skocimis/snap-saver/issues"
+  },
+  "homepage": "https://github.com/Skocimis/snap-saver#readme",
+  "dependencies": {
+    "@ethereumjs/util": "^10.1.0",
+    "@grpc/grpc-js": "^1.14.1",
+    "@grpc/proto-loader": "^0.8.0",
+    "axios": "^1.13.2",
+    "cors": "^2.8.5",
+    "dotenv": "^17.2.3",
+    "ethers": "^5.8.0",
+    "express": "^5.1.0"
+  }
+}

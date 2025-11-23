@@ -1,2 +1,10 @@
 **/target
 out
+node_modules
+package-lock.json
+.env
+.yarn
+.vscode
+.github
+map1.json
+map2.json
