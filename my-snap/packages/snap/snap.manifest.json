@@ -1,0 +1,31 @@
+{
+  "version": "0.1.0",
+  "description": "Transaction insights powered by VisualSign and ERC-7730 Clear Signing for safer transaction verification.",
+  "proposedName": "Snap Saver",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Skocimis/snap-saver.git"
+  },
+  "source": {
+    "shasum": "nLcn/36RVVgQU3yJvRW1i08r/AXLeIIs+OVyiPYcSTQ=",
+    "location": {
+      "npm": {
+        "filePath": "dist/bundle.js",
+        "packageName": "snap-saver",
+        "registry": "https://registry.npmjs.org/"
+      }
+    }
+  },
+  "initialPermissions": {
+    "snap_dialog": {},
+    "endowment:rpc": {
+      "dapps": true,
+      "snaps": false
+    },
+    "endowment:transaction-insight": {},
+    "endowment:ethereum-provider": {},
+    "endowment:network-access": {}
+  },
+  "platformVersion": "9.3.0",
+  "manifestVersion": "0.1"
+}
